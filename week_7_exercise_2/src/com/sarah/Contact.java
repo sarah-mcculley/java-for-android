@@ -23,6 +23,8 @@ public class Contact {
     }
 
 
+
+
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Contact)) {
