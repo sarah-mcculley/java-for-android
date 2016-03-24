@@ -9,6 +9,12 @@ public class BusinessContact extends Contact{
         this.phoneNumber = phoneNumber;
     }
 
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("Phone number: " + phoneNumber);
+    }
+
 
 
 }
