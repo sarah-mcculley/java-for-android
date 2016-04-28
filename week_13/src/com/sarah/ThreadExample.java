@@ -1,6 +1,5 @@
 package com.sarah;
 
-
 public class ThreadExample {
     public static void main(String[] args) {
         Runnable runnable = new Runnable() {
