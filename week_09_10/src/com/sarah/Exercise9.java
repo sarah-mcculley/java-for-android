@@ -41,7 +41,6 @@ class EmailContact extends Contact{
 }
 public class Exercise9 {
     public static void main(String[] args){
-
         PhoneContact phone = new PhoneContact("Bob", "123-456-7890");
         EmailContact email = new EmailContact("Sue", "sue@sue.com");
 
